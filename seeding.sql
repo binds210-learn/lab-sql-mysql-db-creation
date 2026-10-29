@@ -6,7 +6,8 @@ VALUES ('3K096I98581DHSNUP', 'Volkswagen', 'Tiguan', 2019, 'Blue'),
        ('RKXVNNIHLVVZOUB4M', 'Ford', 'Fusion', 2018, 'White'),
        ('HKNDGS7CU31E9Z7JW', 'Toyota', 'RAV4', 2018, 'Silver'),
        ('DAM41UDN3CHU2WVF6', 'Volvo', 'V60', 2019, 'Gray'),
-       ('DAM41UDN3CHU2WVF7', 'Volvo', 'V60 Cross Country', 2019, 'Gray');
+       ('DAM41UDN3CHU2WVF6', 'Volvo', 'V60 Cross Country', 2019, 'Gray');
+
        
 INSERT INTO address (address, city, state_province, country, zip_postal )
 VALUES ('Paseo de la Chopera, 14', 'Madrid', 'Madrid', 'Spain', '28045'),
@@ -33,10 +34,8 @@ VALUES (852399038, '2018-08-22', 1, 1, 3 ),
        (731166526, '2018-12-31', 3, 3, 5 ),
        (271135104, '2019-01-22', 2, 2, 7 );
 
-SELECT * FROM invoices;
-SELECT * FROM cars;
-SELECT * FROM customers;
-SELECT * FROM salespersons;
-SELECT * FROM address;
+
+
+
 
 
